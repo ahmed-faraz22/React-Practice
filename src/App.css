@@ -1,0 +1,93 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:wdth,wght@100..125,100..900&display=swap');
+
+/* import fonts  */
+
+/* global styling start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    font-family: "Sour Gummy", serif;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.add-btn,
+.sub-btn {
+    background: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.sub-btn {
+    position: absolute;
+    top: -15%;
+    right: -2%;
+}
+
+.add-btn:hover {
+    background: #aeffd0;
+    color: black;
+}
+
+.sub-btn:hover {
+    background: #aeffd0;
+    color: black;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 92px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 42px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 39.2px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
