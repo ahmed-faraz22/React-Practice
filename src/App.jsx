@@ -13,7 +13,6 @@ function App() {
 
   const [cartItems, setCartItems] = useState([]);
   const addToCart = (item) => {
-    console.log("pookie is here");
     setCartItems((prevCart) => {
       const existingItem = prevCart.find((cartItem) => cartItem.id === item.id);
       if (existingItem) {
