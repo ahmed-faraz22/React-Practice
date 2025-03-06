@@ -65,8 +65,8 @@
 .hero .inner .cart-dropdown {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     row-gap: 20px;
+    flex-wrap: wrap;
 }
 
 .hero .inner .cart-dropdown .empty-cart {

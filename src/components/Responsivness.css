@@ -61,6 +61,16 @@
     }
 }
 
+@media(max-width: 978.99px) {
+    .hero .inner .cart-dropdown {
+        flex-direction: column;
+    }
+    
+    .hero .inner .cart-dropdown .dropdown-card {
+        width: 100%;
+    }
+}
+
 @media(max-width: 567.99px) {
     h2 {
         font-size: 35px;
@@ -167,10 +177,6 @@
 
     .hero .inner .cart-wrapper {
         padding: 20px;
-    }
-
-    .hero .inner .cart-dropdown .dropdown-card {
-        width: 100%;
     }
 
     .hero .inner .cart-dropdown .dropdown-card-description h4 {
