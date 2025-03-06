@@ -100,7 +100,7 @@ header .inner nav .active {
 
 /* mobile menu-btn  */
 header .inner .menu-btn {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
